@@ -57,3 +57,4 @@ Para correr la aplicación en docker, debera ejecutar el siguiente comando en la
 ```bash
 docker compose up --build -d
 ```
+@Autor Albert Ospina
