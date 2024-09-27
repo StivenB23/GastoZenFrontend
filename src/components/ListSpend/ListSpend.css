@@ -1,0 +1,6 @@
+.listspend {
+    width: auto;
+    display: flex;
+    gap: 15px 10px;
+    flex-wrap: wrap;
+}

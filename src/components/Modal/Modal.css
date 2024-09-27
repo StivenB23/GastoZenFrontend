@@ -1,0 +1,26 @@
+.modal__window {
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    background-color: #fff;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #8b8b8b;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & button{
+        background-color: var(--color-secondary);
+        font-weight: 600;
+        color: #fff;
+    }
+    & button:hover{
+        background-color: var(--color-secondary-hover);
+        cursor: pointer;
+    }
+}
+.iconClose{
+    text-align: right;
+}

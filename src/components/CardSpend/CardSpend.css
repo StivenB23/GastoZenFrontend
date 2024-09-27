@@ -1,0 +1,35 @@
+.cardspend {
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 10px rgba(204, 204, 204, 0.705);
+    border-radius: 5px;
+    padding: 1rem;
+    max-height: 152px;
+    overflow-y: auto;
+}
+
+.cardspend .amount {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(to left, #f32c2c, #f32c7f);
+    /* Define el degradado */
+    -webkit-background-clip: text;
+    /* Clip del fondo al texto en navegadores Webkit */
+    background-clip: text;
+    /* Clip del fondo al texto */
+    color: transparent;
+}
+
+.cardspend .date {
+    font-weight: 600;
+}
+
+.cardspend .category {
+    color: rgb(226, 78, 19);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cardspend .description {
+    font-size: .8rem;
+}

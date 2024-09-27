@@ -1,0 +1,108 @@
+.banner {
+    width: 70%;
+    background: linear-gradient(to left, #f32c2c, #f32c7f);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    display: grid;
+    color: #fff;
+    grid-template-columns: 30% 1fr;
+    overflow: hidden;
+
+    img {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 1.1rem;
+        font-weight: normal;
+    }
+
+}
+
+.overview {
+    display: grid;
+    height: 380px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.card {
+    border: 1px solid #c5c5c5;
+    box-shadow: 0 0 7px rgba(175, 175, 175, 0.712);
+    border-radius: 8px;
+    padding: .7rem .9rem;
+    background-color: #fff;
+}
+
+.card__sprendLast {
+    grid-area: 1 / 1 / 2 / 2;
+    overflow: hidden;
+    position: relative;
+}
+
+.icon__currency{
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    width: 90px;
+    transform: rotate(13deg);
+    height: 200px;
+    opacity: 0.2;
+    background: url("../../assets/icons/dollar-sign-solid.svg") no-repeat;
+    background-size: contain;
+}
+
+.link__important{
+    color: #f32c2c;
+    font-weight: bold;
+}
+.link__important:hover{
+    color: #d81b1b;
+}
+
+.card__sprendCategory {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.card__activity {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.card__sprendLast{
+    padding: .8rem 1.8rem;
+}
+
+.card__sprendLast .date {
+    font-weight: 500;
+}
+
+.card__sprendLast .amount {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to left, #f32c2c, #f32c7f);
+    /* Define el degradado */
+    -webkit-background-clip: text;
+    /* Clip del fondo al texto en navegadores Webkit */
+    background-clip: text;
+    /* Clip del fondo al texto */
+    color: transparent;
+}
+.card__sprendLast a {
+    display: block;
+    text-align: right;
+}
+
+.card__sprendLast .category {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--color-secondary);
+}

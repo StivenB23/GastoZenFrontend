@@ -1,0 +1,6 @@
+.doughnutChart{
+    width: auto;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+}

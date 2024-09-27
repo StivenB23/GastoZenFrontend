@@ -1,0 +1,14 @@
+.targetuser {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+.targetuser img{
+    width: 55px;
+    border-radius: 50%;
+}
+.targetuser__detail p{
+    font-weight: bold;
+    line-height: 7px;
+}
