@@ -7,6 +7,7 @@ import { formatCurrency } from "../../util/formatCurrency";
 import LineChart from "../../components/LineChart/LineChart";
 import ImageTodo from "../../assets/todo.png"
 import { Link } from "react-router-dom";
+import StadisticSpenForCategory from "../../components/StadisticSpenForCategory/StadisticSpenForCategory";
 const HomeDashboard = () => {
     const { user } = useContext(AuthContext);
     const [lastSpend, setLastSpend] = useState({});
@@ -43,6 +44,7 @@ const HomeDashboard = () => {
                 </div>
                 <div className="card card__sprendCategory">
                     <h3>Clasificación Categoría</h3>
+                    <StadisticSpenForCategory />
                     <DoughnutChart title="Gastos Por Categoria" />
                 </div>
                 <div className="card card__activity">

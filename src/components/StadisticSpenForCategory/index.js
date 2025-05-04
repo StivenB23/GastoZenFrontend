@@ -1,0 +1,1 @@
+export { default as StadisticSpenForCategory } from './StadisticSpenForCategory';
