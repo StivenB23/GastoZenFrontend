@@ -35,7 +35,7 @@ Para ejecutar el frontend de manera local sin Docker, sigue los siguientes pasos
 
 1. Clona el repositorio de GastoZen:
    ```bash
-   git clone https://github.com/tuusuario/gastozen-frontend.git
+   git clone https://github.com/StivenB23/GastoZenFrontend
    cd gastozen-frontend
    ```
 2. Instala las dependencias
